@@ -44,7 +44,7 @@ OPTIMIZER = "paged_adamw_32bit"
 # Admin config
 
 STEPS = 50
-SAVE_STEPS = 3000
+SAVE_STEPS = 1000
 
 quant_config = BitsAndBytesConfig(
     load_in_4bit=True,
